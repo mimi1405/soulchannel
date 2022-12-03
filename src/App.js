@@ -42,7 +42,7 @@ function App() {
           <Route path="/coaching" element={<Coaching/>} />
           <Route path="/youtube-coaching" element={<Youtube/>} />
           <Route path="/fitness-coaching" element={<Fitness/>} />
-          <Route path="/success" element={<Success/>} />
+          {/* <Route path="/success" element={<Success/>} /> */}
         </Routes>
       </main>
     </div>

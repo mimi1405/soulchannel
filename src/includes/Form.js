@@ -5,7 +5,7 @@ import Form from "react-bootstrap/Form";
 export default function form() {
   return (
     <div>
-      <form name="contact v2" action="/success" method="post" data-netlify="true" onSubmit="submit" data-netlify-honeypot="bot-field">
+      <form name="contact v2" action="/success/" method="post" data-netlify="true" onSubmit="submit" data-netlify-honeypot="bot-field">
         <input type="hidden" name="form-name" value="contact v2"></input>
         <div className="row pt-3">
           <div className="col-lg-6">
