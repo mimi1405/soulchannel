@@ -1,0 +1,390 @@
+/*
+    All stylings for
+    -Services.js
+    -Service.js
+    -Coaching.js
+    -Fitness.js
+    -Youtube.js
+*/
+
+/*
+    Services.js
+*/
+
+.services-wrapper {
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: auto auto;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+  align-content: center;
+  padding-left: 5%;
+  padding-right: 5%;
+  height: fit-content;
+  background-color: transparent;
+  width: 100vw;
+  text-align: start;
+  position: absolute;
+}
+
+.title-box {
+  width: min-content;
+  background-color: transparent;
+  text-align: start;
+  margin-top: 100px;
+  margin-bottom: 20px;
+  justify-self: start;
+}
+
+.title-box hr {
+  width: 50px;
+  border-color: black;
+  border-style: solid;
+}
+
+.title-box h1 {
+  font-size: 3.5rem;
+  font-weight: bold;
+  letter-spacing: 5px;
+}
+
+.services {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-template-rows: auto;
+  grid-gap: 20px;
+  width: 75%;
+  height: 100%;
+  justify-items: center;
+  padding-bottom: 10px;
+}
+
+@media (max-width: 990px) {
+  .services-wrapper {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto auto;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    align-content: center;
+    padding-left: 5%;
+    padding-right: 5%;
+    height: fit-content;
+    background-color: transparent;
+    width: 100vw;
+    text-align: start;
+    position: absolute;
+  }
+
+  .title-box {
+    width: min-content;
+    background-color: transparent;
+    text-align: start;
+    margin-top: 100px;
+    margin-bottom: 20px;
+    justify-self: start;
+  }
+
+  .title-box hr {
+    width: 50px;
+    border-color: black;
+    border-style: solid;
+  }
+
+  .title-box h1 {
+    font-size: 3.5rem;
+    font-weight: bold;
+    letter-spacing: 5px;
+  }
+
+  .services {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto auto auto;
+    grid-gap: 20px;
+    width: 75%;
+    height: 100%;
+    justify-items: center;
+  }
+}
+
+/*
+    Service.js
+*/
+
+.card p {
+  font-size: x-small !important;
+  background-color: transparent;
+}
+
+.wrapper {
+  overflow: hidden;
+}
+
+.card .wrapper .card-img {
+  transition: all 1s ease;
+}
+.card .wrapper .card-img:hover {
+  transition: all 1s ease;
+  transform: scale(1.2);
+  -ms-transform: scale(1.2); /* IE 9 */
+  -moz-transform: scale(1.2); /* Firefox */
+  -webkit-transform: scale(1.2); /* Safari and Chrome */
+  -o-transform: scale(1.2); /* Opera */
+}
+
+.service-btn {
+  width: auto;
+  padding: 8px;
+  background-color: transparent;
+  color: black;
+  border-radius: 10px;;
+  font-size: small;
+  z-index: 1;
+  transition: .4s ease-in;
+  border: black solid 1px;
+  position: relative;
+}
+
+.service-btn::before,.service-btn::after {
+  position: absolute;
+  content: "";
+  z-index: -1;
+}
+
+.service-btn:hover {
+ box-shadow: 10px 10px 0px black;
+ top: -5px;
+ left: -5px;
+ font-weight: bolder;
+}
+
+.card-img {
+  object-fit: cover;
+  height: 300px;
+  width: 100%;
+}
+
+@media (max-width: 990px) {
+  .card-img {
+    width: 100%;
+    height: 100%;
+  }
+}
+
+/*
+    Coaching.js
+*/
+.coaching-content-container-wrapper {
+  overflow: hidden;
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+}
+.coaching-content-container {
+  width: 100vw;
+  height: 100vh;
+  /* padding-left: 5%;
+  padding-right: 5%; */
+  display: grid;
+  grid-template-columns: 100%;
+  grid-template-rows: 50% 50%;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  right: -30px;
+  position: absolute;
+}
+
+.coaching-content-container img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.back_btn {
+  margin-top: 50px;
+  text-align: left;
+  cursor: pointer;
+  width: max-content;
+  color: white;
+}
+.back_btn button {
+  background-color: transparent;
+  color: white;
+  border-color: transparent;
+}
+
+.coaching-container {
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: repeat(8, auto);
+  justify-content: center;
+  align-items: center;
+  justify-items: center;
+  margin-top: 100px;
+  width: 100vw;
+  height: 80vh;
+  overflow-y: auto;
+  color: white;
+  position: relative;
+}
+
+.coaching-container img {
+  transform: scale(0.6);
+}
+
+.coaching-container h1 {
+  margin-bottom: 50px;
+}
+
+#landcdetails {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+#landcdetails a {
+  text-decoration: none;
+  cursor: pointer;
+  color: white;
+}
+
+#landcdetails a:hover {
+  color: white;
+  font-weight: bold;
+}
+
+@media (max-width: 990px) {
+  .coaching-container h1 {
+    font-size: xx-large;
+  }
+  .coaching-container p {
+    font-size: small;
+  }
+  .coaching-content-container {
+    width: 100vw;
+    height: 100vh;
+    /* padding-left: 5%;
+    padding-right: 5%; */
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 20% 80%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    position: absolute;
+    right: 0;
+  }
+  .coaching-content-container p {
+    font-size: x-small;
+  }
+  .back_btn {
+    padding-left: 5%;
+    text-align: left;
+    width: max-content;
+    color: white;
+  }
+  .back_btn button {
+    cursor: pointer;
+  }
+}
+
+/*
+    Youtube.js
+*/
+
+#youtubeImg {
+  width: 80%;
+  height: 80%;
+}
+/*
+    Youtube.js
+*/
+
+/*
+    Youtube.js
+*/
+
+#fitnessImg {
+  width: 70%;
+  height: 70%;
+  border-radius: 10px;
+  margin-bottom: -100px;
+}
+/*
+    Youtube.js
+*/
+
+/* .oneOnone {
+  width: 100vw;
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 100%;
+  grid-template-rows: 100%;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.oneOnone p {
+  font-size: small;
+}
+
+.content_oneOnone {
+  width: 80vw;
+  height: 80vh;
+  overflow-y: hidden;
+  color: white;
+  position: absolute;
+  padding: 1rem;
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: auto;
+  justify-content: center;
+  align-items: center;
+  justify-self: center;
+}
+
+.oneOnone video {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  position: relative;
+} */
+
+/*
+    Coaching.js
+*/
+
+.icon-container {
+  width: 200px;
+  height: 200px;
+  color: white;
+  border-color: currentColor;
+  fill: currentColor;
+  animation: bounce 2s infinite;
+  cursor: pointer;
+}
+
+@keyframes bounce {
+  0%,
+  20%,
+  50%,
+  80%,
+  100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-30px);
+  }
+  60% {
+    transform: translateY(-15px);
+  }
+}

@@ -1,0 +1,146 @@
+.NavBar .MobileNavigation {
+  display: none;
+}
+
+.NavBar {
+  width: 100vw;
+  height: 80px;
+  opacity: 1;
+  list-style: none;
+  text-decoration: none;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  justify-items: center;
+}
+
+.Navbar {
+  width: 100%;
+  height: 100%;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 100%;
+  list-style: none !important;
+  text-decoration: none !important;
+  justify-content: center;
+  align-content: center;
+}
+
+.Navbar a {
+  font-size: medium;
+}
+
+.navbar ul a {
+  display: inline-block;
+  padding: 10px;
+}
+
+.box {
+  display: grid;
+  grid-template-columns: 100%;
+  grid-template-rows: 50% 50%;
+}
+
+#title {
+  font-style: italic;
+  font-weight: 400;
+  color: transparent;
+  text-shadow: 0 0 0.8px #000;
+}
+
+#description {
+  font-weight: 100;
+}
+#description:hover {
+  color: #146697;
+}
+.box:hover {
+  color: #146697;
+}
+.link:hover {
+  color: #146697;
+}
+
+.link {
+  text-decoration: none;
+  color: black;
+  justify-self: center;
+  align-self: center;
+}
+
+@media (max-width: 990px) {
+  .NavBar .Navbar {
+    display: none;
+    position: sticky;
+  }
+
+  .NavBar .MobileNavigation {
+    position: relative;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100%;
+    background-color: white;
+    width: 100vw;
+  }
+
+  .NavBar .MobileNavigation .navbar {
+    position: absolute;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+
+
+  .NavBar .MobileNavigation .icon-cont ul {
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    right: 0;
+    left: 0;
+    top: 80px;
+    border-top: #000 solid 2px;
+  }
+
+  .NavBar .MobileNavigation .icon-cont ul a {
+    display: block;
+    margin: 20px;
+    position: relative;
+    
+  }
+
+  .hamburger {
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+  }
+
+  .NavBar .MobileNavigation nav {
+    width: 100vw;
+    height: 100vh;
+  }
+
+  .NavBar {
+    opacity: 1;
+    z-index: 999;
+  }
+
+  .NavBar nav ul {
+    /* display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto auto; */
+    background-color: white;
+  }
+}
+
+.bar {
+  align-self: center;
+  justify-self: center;
+}
+
+.bar ul a{
+  margin: 20px;
+}

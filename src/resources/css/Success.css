@@ -1,0 +1,37 @@
+.success-title {
+  font-weight: bolder;
+  letter-spacing: 3%;
+  text-shadow: 0 0 8px #000;
+  z-index: 9999;
+  font-size: 3rem;
+}
+
+.success-back-btn {
+  width: 20rem;
+  background-color: transparent;
+  border: 2px solid white;
+  color: white;
+  border-radius: 8px;
+  margin-top: 50px;
+  font-size: xx-large;
+  padding: 20px;
+  animation: pulse 1s infinite ease-in-out alternate;
+  border-width: 2.5px;
+  font-weight: bold;
+  letter-spacing: 3%;
+  text-shadow: 0 0 8px #000;
+  z-index: 9999;
+  font-style: italic;
+}
+.success-back-btn:hover {
+  font-weight: 900;
+}
+
+@keyframes pulse {
+  from {
+    transform: scale(0.8);
+  }
+  to {
+    transform: scale(1.2);
+  }
+}
