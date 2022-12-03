@@ -11,13 +11,13 @@ export default function form() {
           <div className="col-lg-6">
             <Form.Group>
               <Form.Label>Name</Form.Label>
-              <Form.Control value="contact v2" name="name" placeholder="Mustermann" type="text"></Form.Control>
+              <Form.Control name="name" placeholder="Mustermann" type="text"></Form.Control>
             </Form.Group>
           </div>
           <div className="col-lg-6">
             <Form.Group>
               <Form.Label>Vorname</Form.Label>
-              <Form.Control value="contact v2" name="vorname" placeholder="Max" type="text"></Form.Control>
+              <Form.Control name="vorname" placeholder="Max" type="text"></Form.Control>
             </Form.Group>
           </div>
         </div>
@@ -26,7 +26,7 @@ export default function form() {
           <Form.Group>
             <Form.Label>Telefon</Form.Label>
             <Form.Control
-              value="contact v2" name="telefon"
+             name="telefon"
               placeholder="+ (XX) (XX)(XXX)(XXX)"
               type="tel"
             ></Form.Control>
@@ -35,14 +35,13 @@ export default function form() {
         <div className="col-lg-12 pt-3">
           <Form.Group className="mb-3" controlId="formBasicEmail">
             <Form.Label>Email-Adresse</Form.Label>
-            <Form.Control value="contact v2" name="email" type="email" placeholder="example@example.com" />
+            <Form.Control name="email" type="email" placeholder="example@example.com" />
           </Form.Group>
         </div>
         <div className="col-lg-12">
           <Form.Group className="mb-3" controlId="formBasictxtArea">
             <label htmlFor="message" >Nachricht</label>
             <textarea
-              value="contact v2"
               className="form-control"
               name="message"
               id="message"
