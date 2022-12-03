@@ -5,7 +5,7 @@ import Form from "react-bootstrap/Form";
 export default function form() {
   return (
     <div>
-      <form action="/success" method="PULL" data-netlify="true" onSubmit="submit" data-netlify-honeypot="bot-field">
+      <form action="/success" method="PUSH" data-netlify="true" onSubmit="submit" data-netlify-honeypot="bot-field">
         <div className="row pt-3">
           <div className="col-lg-6">
             <Form.Group>
