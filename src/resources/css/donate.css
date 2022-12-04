@@ -59,7 +59,7 @@
     .text-box a h2 {
         letter-spacing: 2px;
         text-transform: uppercase;
-        font: 1rem;
+        font-size: 3rem;
         text-align: center;
         font-weight: bold;
       }

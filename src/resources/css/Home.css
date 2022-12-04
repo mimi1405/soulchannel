@@ -589,16 +589,6 @@
     border-color: transparent;
   }
 
-  .more_info_btn:hover {
-    background-color: #275395;
-    color: black;
-  }
-
-  .more_services_btn:hover {
-    background-color: #275395;
-    color: black;
-  }
-
   .direct_1on1_container {
     width: 100%;
   }
