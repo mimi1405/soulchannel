@@ -63,6 +63,8 @@ export default function HomeTest() {
             autoPlay
             loop
             muted
+            controls='true'
+            type='video/mp4'
           ></video>
 
           <div className="content_oneOnone">
