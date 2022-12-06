@@ -17,7 +17,7 @@ export default function Form() {
   }
   return (
     <div>
-      <form name="contact" data-netlify="true" method="post" action={submitHandler}>
+      <form name="contact" data-netlify="true" method="post" action='/functionnality/success'>
         <input type="hidden" name="form-name" value="contact" />
         <div className="row">
           <div className="col-6">
