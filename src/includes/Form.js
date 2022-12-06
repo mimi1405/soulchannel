@@ -12,12 +12,12 @@ export default function Form() {
       headers: { "Content-Type": "application/x-www-form-urlencoded" },
       body: new URLSearchParams(formData).toString(),
     })
-      .then(() => navigate('/functionallity/success'))
+      .then(() => navigate('/functionnality/success'))
       .catch((error) => alert(error));
   }
   return (
     <div>
-      <form name="contact" data-netlify="true" method="POST" action={submitHandler}>
+      <form name="contact" data-netlify="true" method="post" action={submitHandler}>
         <input type="hidden" name="form-name" value="contact" />
         <div className="row">
           <div className="col-6">
