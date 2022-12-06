@@ -6,8 +6,8 @@ import Form from "react-bootstrap/Form";
 export default function form() {
   return (
     <div>
-      <form netlify name="contact v2" action="functionallity/success/" method="post" data-netlify="true" data-netlify-honeypot="bot-field">
-        <input type="hidden" name="form-name" value="contact v2"></input>
+      <form netlify name="contact" action="functionallity/success/" method="post" data-netlify="true" data-netlify-honeypot="bot-field">
+        <input type="hidden" name="form-name" value="contact"></input>
         <div className="row pt-3">
           <div className="col-lg-6">
             <Form.Group>
