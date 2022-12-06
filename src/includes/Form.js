@@ -17,7 +17,7 @@ export default function Form() {
   }
   return (
     <div>
-      <form netlify netlify-honeypot="bot-field" name="contact" data-netlify="true" method="post" action='/functionnality/success'>
+      <form netlify name="contact" data-netlify="true" method="post" action='/functionnality/success'>
         <input type="hidden" name="form-name" value="contact" />
         <div className="row">
           <div className="col-6">
@@ -46,7 +46,7 @@ export default function Form() {
             <label for="email" className="form-label">
               E-Mail:
             </label>
-            <input className="form-control" type="email" nameName="email" />
+            <input required className="form-control" type="email" nameName="email" />
           </div>
         </div>
         <div className="row">
@@ -58,6 +58,8 @@ export default function Form() {
               className="form-control"
               id="nachricht"
               rows="3"
+              required
+              name="nachricht"
             ></textarea>
           </div>
         </div>
