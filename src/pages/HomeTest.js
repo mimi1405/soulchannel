@@ -59,6 +59,7 @@ export default function HomeTest() {
 
         <section className="oneOnone">
           <video
+            style={{pointerEvents: "none"}}
             src={video}
             autoPlay
             loop
