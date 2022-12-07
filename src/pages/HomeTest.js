@@ -65,6 +65,7 @@ export default function HomeTest() {
             muted
             controls='true'
             type='video/mp4'
+            playsInline
           ></video>
 
           <div className="content_oneOnone">
