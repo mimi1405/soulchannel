@@ -4,9 +4,9 @@ import businessImage from "../resources/imgs/business.jpg";
 import youtubeCoaching from "../resources/imgs/1on1.jpg";
 import "../resources/css/Services.css";
 import { Parallax } from "react-parallax";
-import ArrowDown from "../includes/svgs/ArrowDown"
-import image from "../resources/imgs/universum.jpg"
-import Service from "../services/Service"
+import ArrowDown from "../includes/svgs/ArrowDown";
+import image from "../resources/imgs/universum.jpg";
+import Service from "../services/Service";
 
 const fitnessText =
   "Lass mich dir helfen, um deine Fitness und Gesundheit auf das nächte Level zu bringen. Hol dir deinen Traumkörper und werde so gesund wie noch nie zuvor!";
@@ -28,7 +28,9 @@ const youtubePrice = "50€";
 const coachingPrice = "Preis auf Anfrage";
 
 const scrollToServices = () => {
-  document.getElementById("service-wrapper").scrollIntoView({behavior: "smooth", block: "start"});
+  document
+    .getElementById("service-wrapper")
+    .scrollIntoView({ behavior: "smooth", block: "start" });
 };
 
 export default function ParallaxServices() {
@@ -41,37 +43,43 @@ export default function ParallaxServices() {
         strength={800}
         className="ImageOne"
       >
-        <div title="Click mich!" onClick={scrollToServices} className="icon-container">
+        <div
+          title="Click mich!"
+          onClick={scrollToServices}
+          className="icon-container"
+        >
           <ArrowDown />
         </div>
       </Parallax>
-      <div id="service-wrapper" className="services-wrapper">
-        <div className="title-box">
-          <hr className="_divider" />
-          <h1>SERVICES</h1>
-        </div>
-        <div className="services">
-          <Service
-            text={coachingText}
-            time={coachingTime}
-            price={coachingPrice}
-            image={youtubeCoaching}
-            serviceTitle={coachingTitle}
-          />
-          <Service
-            text={youtubeText}
-            time={youtubeTime}
-            price={youtubePrice}
-            image={businessImage}
-            serviceTitle={youtubeTitle}
-          />
-          <Service
-            text={fitnessText}
-            time={fitnessTime}
-            price={fitnessPrice}
-            image={fitnessImage}
-            serviceTitle={fitnessTitle}
-          />
+      <div className="wrapper_para_services">
+        <div id="service-wrapper" className="services-wrapper">
+          <div className="title-box">
+            <hr className="_divider" />
+            <h1>SERVICES</h1>
+          </div>
+          <div className="services">
+            <Service
+              text={coachingText}
+              time={coachingTime}
+              price={coachingPrice}
+              image={youtubeCoaching}
+              serviceTitle={coachingTitle}
+            />
+            <Service
+              text={youtubeText}
+              time={youtubeTime}
+              price={youtubePrice}
+              image={businessImage}
+              serviceTitle={youtubeTitle}
+            />
+            <Service
+              text={fitnessText}
+              time={fitnessTime}
+              price={fitnessPrice}
+              image={fitnessImage}
+              serviceTitle={fitnessTitle}
+            />
+          </div>
         </div>
       </div>
     </div>

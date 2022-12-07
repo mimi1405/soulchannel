@@ -24,6 +24,7 @@
   height: fit-content;
   background-color: transparent;
   width: 100vw;
+  height: auto;
   text-align: start;
   position: absolute;
 }
@@ -74,6 +75,7 @@
     height: fit-content;
     background-color: transparent;
     width: 100vw;
+    height: 100vh;
     text-align: start;
     position: absolute;
   }
@@ -107,6 +109,10 @@
     width: 75%;
     height: 100%;
     justify-items: center;
+  }
+  .wrapper_para_services{
+    position: absolute;
+    margin-top: 1000px;
   }
 }
 
