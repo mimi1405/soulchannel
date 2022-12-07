@@ -371,6 +371,7 @@
   fill: currentColor;
   animation: bounce 2s infinite;
   cursor: pointer;
+  position: relative;
 }
 
 @keyframes bounce {

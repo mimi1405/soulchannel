@@ -1,4 +1,4 @@
-import React, { PureComponent } from "react";
+import React from "react";
 import fitnessImage from "../resources/imgs/fitness.jpg";
 import businessImage from "../resources/imgs/business.jpg";
 import youtubeCoaching from "../resources/imgs/1on1.jpg";
