@@ -1,7 +1,7 @@
 import "./App.css";
 import Nav from "./includes/Navigation/Nav";
 import Services from "./services/Services";
-import { BrowserRouter as Routes, Route } from "react-router-dom";
+import { Routes, Route } from "react-router-dom";
 import Donate from "./includes/Donate";
 import Coaching from "./services/Coaching";
 import HomeTest from "./pages/HomeTest";

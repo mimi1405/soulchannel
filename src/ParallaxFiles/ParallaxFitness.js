@@ -31,7 +31,7 @@ export default function ParallaxCoaching() {
             <p className="description_coaching">
               Du willst deinen Traumkörper endlich haben? Du willst gesünder sein? Melde dich!
             </p>
-            <p className="description_details">1 hr | 50€</p>
+            <p className="description_details">1 hr | Preis auf Anfrage</p>
             <img
               id="fitnessImg"
               alt="Contentcreator Soulchannel, schick angezogen"

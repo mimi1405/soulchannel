@@ -23,8 +23,8 @@ const fitnessTime = "1h";
 const youtubeTime = "1h";
 const coachingTime = "1h";
 
-const fitnessPrice = "50€";
-const youtubePrice = "50€";
+const fitnessPrice = "Preis auf Anfrage";
+const youtubePrice = "Preis auf Anfrage";
 const coachingPrice = "Preis auf Anfrage";
 
 const scrollToServices = () => {

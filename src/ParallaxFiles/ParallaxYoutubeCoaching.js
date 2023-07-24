@@ -31,7 +31,7 @@ export default function ParallaxCoaching() {
             <p className="description_coaching">
               Lass deinen Youtube-Kanal wachsen und komme schnellstens zu passivem Einkommen!
             </p>
-            <p className="description_details">1 hr | 50€</p>
+            <p className="description_details">1 hr | Preis auf Anfrage</p>
             <img id="youtubeImg"
               alt="Contentcreator Soulchannel, schick angezogen"
               className=""
